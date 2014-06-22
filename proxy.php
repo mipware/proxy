@@ -2,6 +2,8 @@
 
   // This code was derived from http://benalman.com/projects/php-simple-proxy/
   // And modified for one specific call
+  
+  // from https://github.com/Sarastro72/turf-aoi/blob/develop/player-proxy.php
 
   $url = "http://api.turfgame.com/v4/users/location";
   $ch = curl_init( $url );
